@@ -7,3 +7,10 @@
 [node name="Player" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
 character_right = ExtResource( 3 )
+
+[node name="Camera2D" type="Camera2D" parent="." index="3"]
+current = true
+zoom = Vector2( 0.5, 0.5 )
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
+smoothing_enabled = true
