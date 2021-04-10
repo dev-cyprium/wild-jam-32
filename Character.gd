@@ -4,10 +4,10 @@ export(Texture) var character_right
 
 var facing = 'right'
 var moves = {
-	'right': Vector2(1, 0),
-	'left': Vector2(-1, 0),
-	'up': Vector2(0, -1),
-	'down': Vector2(0, 1)
+	'right': Vector2.RIGHT,
+	'left': Vector2.LEFT,
+	'up': Vector2.UP,
+	'down': Vector2.DOWN,
 }
 
 onready var move_textures = {
