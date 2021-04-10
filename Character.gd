@@ -29,4 +29,4 @@ func move(dir, vel):
 	if ($AnimationPlayer.current_animation != "move"):
 		$AnimationPlayer.play("move")
 	
-	move_and_slide(moves[dir] * vel, Vector2.UP)
+	var _ret = move_and_slide(moves[dir] * vel, Vector2.UP)
