@@ -1,0 +1,9 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://characters/Character.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/Player/Player.gd" type="Script" id=2]
+[ext_resource path="res://characters/Player/assets/wraith_run_right.png" type="Texture" id=3]
+
+[node name="Player" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+character_right = ExtResource( 3 )
