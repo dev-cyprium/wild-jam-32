@@ -21,10 +21,9 @@ tracks/0/keys = {
 }
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 7.91506, 4.79536 )
+extents = Vector2( 6.61628, 3.76253 )
 
 [node name="KinematicBody2D" type="KinematicBody2D"]
-position = Vector2( -0.297302, 0.0371628 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
@@ -39,5 +38,5 @@ frame = 4
 anims/wander = SubResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -0.374573, -1.87288 )
+position = Vector2( 0.0151956, -0.258126 )
 shape = SubResource( 1 )
